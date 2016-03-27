@@ -24,7 +24,7 @@ a:hover {
 }
 
 .card {
-	background: white url("/static/avatar-128.png") 25px 25px no-repeat;
+	background: white url("static/avatar-128.png") 25px 25px no-repeat;
 	background-color: white;
 	border: 1px solid #555;
 	box-shadow: #aaa 2px 2px 2px;
@@ -45,16 +45,21 @@ h3 {
 h4 {
 	margin: 0;
 	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+h4 a {
+	color: #5778bb;
 }
 
 ul {
 	list-style: none;
-	margin: 20px 0 0;
+	margin: 2em 0 0;
 	padding-left: 15px;
 }
 
 li {
-	line-height: 1.6em;
+	line-height: 1.7em;
 	font-size: 0.9em;
 }
 
@@ -68,7 +73,8 @@ li img {
 <body>
 <div class="card">
 	<h3>Jerome Leclanche</h3>
-	<h4>Python Software Engineer</h4>
+	<h4>Founder, <a href="https://hearthsim.net">HearthSim</a></h4>
+	<h4>Software Engineer</h4>
 	<h4>UX Designer</h4>
 	<ul>
 		<li>
@@ -78,14 +84,6 @@ li img {
 		<li>
 			&lt;<a href="mailto:jerome.leclanche+leclan.ch@gmail.com">&#106;&#101;&#114;&#111;&#109;&#101;<span>&#64;</span>leclan<span>&#46;</span>ch</a>&gt;
 			<img height="10" width="14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAYAAACE2W/HAAABkUlEQVQoz02PP2tTYRyFn/flJk3jUESMfyjXqhmkS0dxEcEPoGBHcbDRpQ6uWhUHB7uIIO6KHYq6dtEv4eKQGtNioNKkSCw18b33vr/jcCP0LGc4PJxzXO/a1Q9Js7k48/ARrlYjxohZgZkR4yGPETvYJ7x4iXW38Di3mHc67N26SdZug3dIIASAZOAc9r1DuHcftn/Qz3K8JFylCoLh4xXGGxvgBCbMBDiKT5/Jnj3HgK/jQHcU8AiS5nlmVlehOsVo7R37D1awEFCW8ffJU7L19+SVhC/Xb/Cn0cADiSQsGj5NOfr2DcM7d7Fej4PlZRAoz/ntPd2lFq4oQMIhfJkaZhHLc468fkVy6SKEDLKM9mzK1u0lsPKrBxyQIJAgxohkmIxqq8VOeoadX0MsTUvokEpw0hhjgXOO3Z+75EXO6SuXOWWR7naP/mAPhysJleb/N4YQ2Nz8Rr0+zckTDZAB4tzcLPMXmnjnJpBwEl7Sx9F4xGDQ5+xcylStglmBZEgimlGfrrGwME/j+LHJWPEPVYri3CDpbFAAAAAASUVORK5CYII="/>
-		</li>
-		<li>
-			<a href="https://plus.google.com/+JeromeLeclanche/posts">+JeromeLeclanche</a>
-			<img height="14" width="14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACEElEQVQokZWRPWgTYRjH/+97dyZcmjSJrclpi9G0IqiYlsMGwbVKjBKsBXVyKBQEJ3FRyCa6qIOCIDgUUbsUIUp1cvALhBIqOARi8EpSeyckZ5OQNh/vvQ6Xhpq4+CzPB/8fzxfJxaL4HxM7EWfMKheJKPF6DawJgMj91O37N8BZSxhUQs8X61pOHj8GEAAb35ZXr1zoYigADljF1dDTlPn6ZWHmzPeJYQC1r+n89FhvBwoAzYYrdhFAay0v7NwDp9t8tSAfHZcOnuCcA2CG9jdAiFUpA3AeiljVdRDK1n8DYEYBhDBDG11a6zAUABGljY9vGnnNGz/nOjmF1qY3ljDu34LssQyN5XQALKfbDLHPygHr14p39oYcUV1qtDQ/V7x7E5yNLq1tXyCrKtSOCEA8g+a9q6W5RwA8k6elkcPUp2RVJeMjADI+klUVIRBqA8zQ+i/Nhj8XA9eSlQ/vRP9A6MVbcWgfHRgSwkEAQjgoBELtkaxySXnwzLl/5MepMU4oLGvHkYm9j+erXz7p12eo28sMzVZv/WGz6oqo5mKKc1DvLuoPNtLvS6kF4nAAHEBHvXVWSgH4z553TU5xU+em3pe47I8nSk8eEtnd9TiSi0U5a0mhA0ryjrR72K42CivG7WQ9s0ydcjegxY8D4K2mVTHRqNlF4pBJn5eIEnpMTP/Ut6XOtq8x1Iq9agB/AOtDzkfINFlfAAAAAElFTkSuQmCC"/>
-		</li>
-		<li>
-			<a href="https://www.peopleperhour.com/freelancer/jerome/python-software-engineer/145291">pph.me/jleclanche</a>
-			<img height="14" width="14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABt0lEQVQokWNgIBEwYgqxsLDIysoyMDA8fvz4z58/+HTLycnNmzfv06dP/35++/fz26dPn+bNmycnJ4ddtZ2d3ft3736dWP61x+1zqeLnUsWv3W6/Tix7/+6dvb09upNkZWUvXrzAubPlz9kN6C40CvjhUatvYPDo0SMGBgZmiGh/f78p86N/Ty6zueb9e3qF4cdnBgYGJnEVNv/av7cOc7CzCWnbbNy4EWoGMzPzx48fv/a4/7l36v///z+2dX0uUfxcovjz0Nz/////vrTta4/bp0+fWFhYGBgYWCDu4eVk+/ry1q8dvSx6Xn/OrIEY9PvoIkYWtt8nV/57eZuHnUVWVvb+/fssyM79e+/U33un4Nz/bx/9XFeHFvhMkPD+/P0Xk7garuBmElf98vPP48ePoRr+/v27Zs0aVttEXBpYbRJXr14NiUSkYL1wgXNX25+z69CD1Tjwu3u1vr4BxAZosH769OnY8eMh1VO5JBX/v3v8/+tbBkYGJgk1No+Sb+YJ/v4Bly9fxmK1rKzs3LlzP378+O/X93+/vn/8+HHu3LmQdAUHWBIfMzMzPPH9/fsXl8eIBQClf8ob22DXlAAAAABJRU5ErkJggg=="/>
 		</li>
 		<li>
 			<a href="https://github.com/jleclanche">github.com/jleclanche</a>
