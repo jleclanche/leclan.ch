@@ -15,11 +15,26 @@ body {
 h1, h2, h3 {
 	line-height: 1.2;
 }
+
+footer, footer a {
+	color: #999;
+	font-size: x-small;
+	margin-top: 4em;
+	text-align: center;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
 </style>
 </head>
 <body>
 	<article>
 		{{ content }}
 	</article>
+
+	<footer>
+		<a href="https://leclan.ch/">Jerome @ Leclanche</a>
+	</footer>
 </body>
 </html>
