@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/jleclanche
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://leclan.ch
+  * I am jleclanche (https://keybase.io/jleclanche) on keybase.
+  * I have a public key with fingerprint 1697 04C6 FB49 0C68 92C7  F23C 37E0 AF1F DA48 F373
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01015af59f950d0d1458c7977af6c7d822f678f99dfb6f78a908afcac1143ee21d5e0a",
+      "fingerprint": "169704c6fb490c6892c7f23c37e0af1fda48f373",
+      "host": "keybase.io",
+      "key_id": "37e0af1fda48f373",
+      "kid": "01015af59f950d0d1458c7977af6c7d822f678f99dfb6f78a908afcac1143ee21d5e0a",
+      "uid": "e455e0c142ed08cacdbf711f13af7b00",
+      "username": "jleclanche"
+    },
+    "merkle_root": {
+      "ctime": 1505802546,
+      "hash_meta": "e9cfe33d18e16541af428e133069ece98bfbc4d6fdb35b631d8d5e901facf7ff",
+      "seqno": 1407472
+    },
+    "revoke": {
+      "sig_ids": [
+        "f1d4fdb5e00641b3f220361fd61c179798c1c71221727889b2f01c4c1af875e50f"
+      ]
+    },
+    "service": {
+      "hostname": "leclan.ch",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1505802549,
+  "expire_in": 157680000,
+  "prev": "95e13ff831c22e319796aedd4f4fa23ac95faa90ab2c5e00038090d633abb932",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMPMAnicrVN/UBRVHD8wTMAfQJgOY4g7oSOCvbe/F4VsFDM100zTUzx33753t91x
+d94e1IkwY06JSiMmY0kwOf5ISMcUkAHRSYmcQjJlQJlM0iFlSHTSSyL+6i3ZNNP0
+Z/vP7nvz+X5+vX2t40bZYiKkW19M/WFR2Iy41BLMt6093yQUMppPDzGZhYwbj7yw
+R8dm0OE2dCaTARBAQSWCQhQB6ECHvCAjSZEklYhI0mWWJaIkE0XRiSYSSVYVIKsE
+qQhCnsOYhbqAgcqkM8TwOnHAHzC8QUoLRUUCPBKJxisAibLCIomwHOIkiiaQ6Cov
+E07i6KDLZ1oT1Jymmni24aN7dOEYsfcf+P/Zd/4IHeYFukaQZ7EOZArTNSJBSCCn
+EkkDwAKaOOBV8zBFv+XByKN6kQszRelMHg64PdgR8PmCVr0oaFggKABBBqzAizSi
+aroceTioWkoKIpjjdChjKAo8VAnP0k+OA6KCEVZkjWiI10Wia5ygiRzUZWpVAZCo
+iEiEUCcm3uT1UQUeSLzEUgcBXOBzY0vcNJy0OJPJXMcQqPOUhMYCIg81jrAs4ERa
+pQgRpE0pMoJIgiwLJVaSZUVjCYCIR9SRLAlYAITJLbLEAgUGGiG3TupJA38VMBu5
+qB1/wBf0IZ+HbruCQb+ZaZUSDPkt3NtYczxhcGiGV6c/CZ0owAHT8HlpBIr8d19K
+OoPf8RsB7DAshCCJMqCPpYMLKKUi0LYIkTmIWBZzkCYRVazTsDxRWU5FikBUetyq
+xiIrPOBkoABd5DhV0xSO/adAqhRUnZSStuZVg/kBepwtF9Y/ZYuIsY2OirQujy0m
+Ou7vK+US42wnV9Rc5wf/qEm80jz+6y/vNJQ3VOspuHwyXDq86PaV+puJTSV95wtP
+pz5M746N9kTOz64Bx0ZV75k76UHFkD++N/VoWVluT+m2zE9yw0XtYxKSJ1ewnV3K
+uIT6E3VyyslZB/vfr+lssfNNrtWMa8eUjq3GtTULr692FYc/7/n2uUlnH4Hd8fOO
+/BTqfvFIfs2j3rgqLnHevsY+fr0Ql/RCZ/nTL49fl1Kz/GbqprS6aZP9E/PSBk43
+Rs+8HZlxIuPMpuGy+aT08cSlicrR7veSl4U3xDybYoSWD7R33FudvPW346RDP2U8
+X7c299CcvL0bYxv3q6XdrpzFYxfU5mSuGD7TeC7+8Obv3D/+Wj5jlpFwcGXZtp33
++qrqbxQ/+D5r5fHc6R/0c5dq6169XJUS/+aMAea1va2LM7K5FpGVk/pqC5z2qF0V
+2T0fpm0/dygp+sjc2uHGpV0NM+1j7QfmeKuWLBmdbFt5ONs+dfe4jA2bMwrdo8xr
+qe8+7Pl4z7To/t7zz7zRHbow47inuW3nqRMPjfDEV+qljfY57YO2VVGxbUP5t6qz
+BthQPAMr/SWfSjmHvtletiVty7Gw+NK92JIbnzWfPTDBrN0XuuEU7t53X76Y9XNr
+8ULb/DGrHmy537AGT/mlOpwVeXX8nQmFF3c4u5yPEyrbKl1DXb9LH033liy7ur9t
+MDy44Ku7U+2v/wnmB/06
+=teWD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jleclanche
+
+==================================================================
