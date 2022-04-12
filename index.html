@@ -1,149 +1,203 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Jerome Leclanche - Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
-<style type="text/css">
-@font-face {
-	font-family: "Open Sans";
-	font-style: normal;
-	font-weight: 400;
-	src: local("Open Sans"), url("/static/OpenSans-Regular.woff") format("woff");
-}
+	<head>
+		<title>Jerome Leclanche - Home</title>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+		/>
+		<style type="text/css">
+			@font-face {
+				font-family: "Open Sans";
+				font-style: normal;
+				font-weight: 400;
+				src: local("Open Sans"),
+					url("/static/OpenSans-Regular.woff") format("woff");
+			}
 
-body {
-	background-color: #eee;
-	font-family: "Open Sans", Helvetica, sans-serif;
-}
+			body {
+				background-color: #eee;
+				font-family: "Open Sans", Helvetica, sans-serif;
+			}
 
-a {
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
-}
+			a {
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
 
-.card {
-	background: white url("static/avatar-128.png") 25px 25px no-repeat;
-	background-color: white;
-	border: 1px solid #555;
-	box-shadow: #aaa 2px 2px 2px;
-	color: #333;
-	margin: 2% auto 2em;
-	max-width: 440px;
-	padding: 20px;
-	position: relative;
-	text-align: right;
-	width: 100%;
-}
+			.card {
+				background: white url("static/avatar-128.png") 25px 25px no-repeat;
+				background-color: white;
+				border: 1px solid #555;
+				box-shadow: #aaa 2px 2px 2px;
+				color: #333;
+				margin: 2% auto 2em;
+				max-width: 440px;
+				padding: 20px;
+				position: relative;
+				text-align: right;
+				width: 100%;
+			}
 
-h3 {
-	margin: 0 0 0.2em;
-	font-size: 1.1em;
-}
+			h3 {
+				margin: 0 0 0.2em;
+				font-size: 1.1em;
+			}
 
-h4 {
-	margin: 0;
-	font-size: 0.8em;
-	line-height: 1.3em;
-}
+			h4 {
+				margin: 0;
+				font-size: 0.8em;
+				line-height: 1.3em;
+			}
 
-h4 a {
-	color: #5778bb;
-}
+			h4 a {
+				color: #5778bb;
+			}
 
-h5 {
-	margin-top: 0.5em;
-	color: #999;
-	text-align: center;
-}
+			h5 {
+				margin-top: 0.5em;
+				color: #999;
+				text-align: center;
+			}
 
-ul {
-	list-style: none;
-	margin: 2em 0 0;
-	padding-left: 15px;
-}
+			ul {
+				list-style: none;
+				margin: 2em 0 0;
+				padding-left: 15px;
+			}
 
-li {
-	line-height: 1.7em;
-	font-size: 0.9em;
-}
+			li {
+				line-height: 1.7em;
+				font-size: 0.9em;
+			}
 
-li img {
-	position: relative;
-	top: 2px;
-	margin-right: 5px;
-}
+			li img {
+				position: relative;
+				top: 2px;
+				margin-right: 5px;
+			}
 
-footer {
-	color: #777;
-	font-size: x-small;
-	text-align: center;
-}
+			footer {
+				color: #777;
+				font-size: x-small;
+				text-align: center;
+			}
 
-@media all and (orientation: portrait) {
-	.card {
-		background-position: center 10px;
-		text-align: center;
-		max-width: 80%;
-		margin: 0 auto 1em;
-		min-width: 225px;
-		padding: 150px 0 20px;
-	}
-}
-</style>
-<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "Person",
-		"name": "Jerome Leclanche",
-		"url": "https://leclan.ch",
-		"email": "jerome@leclan.ch",
-		"gender": "Male",
-		"memberOf": {
-			"@type": "Organization",
-			"name": "OLA",
-			"url": "https://olainvierte.com"
-		},
-		"jobTitle": "Chief Technical Officer",
-		"image": "https://leclan.ch/static/avatar-128.png",
-		"sameAs": [
-			"https://github.com/jleclanche",
-			"https://twitter.com/Adys"
-		]
-	}
-</script>
-</head>
-<body>
-<div class="card">
-	<h3>Jerome Leclanche</h3>
-	<h4>
-		Founder / CEO @ <a href="https://goveni.com" target="_blank" rel="noreferrer noopener">Goveni</a>
-	</h4>
-	<h4>
-		Co-founder / CTO @ <a href="https://olainvierte.com" target="_blank" rel="noreferrer noopener">OLA</a>
-	</h4>
-	<ul>
-		<li>
-			Brussels, BE
-			<img height="14" width="14" src="data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%3F%3E%3Csvg%20id%3D%22svg2%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221.1%22%3E%3Cg%20transform%3D%22translate(0%2C448)%22%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22m16%20256%20240-192%2096%2072v-32h48v72l96%2080h-48v192h-120v-160h-96v160h-168v-192z%22%20transform%3D%22translate(0%2C-448)%22%20stroke%3D%22%23000%22%20stroke-width%3D%2212%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"/>
-		</li>
-		<li>
-			&lt;<a href="mailto:jerome@leclan.ch" target="_blank" rel="noreferrer noopener">&#106;&#101;&#114;&#111;&#109;&#101;<span>&#64;</span>leclan<span>&#46;</span>ch</a>&gt;
-			<img height="12" width="14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfiCRQAFwhOa740AAAAwUlEQVQY033QsWrCABSF4S8xQvEBOig4GEo71Mkn8BXERZBmcek7+BxdWpCs4ty1g66Ca6UONUMHXTtFQgdBaFpyx/MP59yfigu03Kr/Q3LvgVc7b8ISKvTFkS8Hn9Yl2HPQCGVmBrq/UNfATBaqyaRG4guKjaQytXPX1lyiCZoSc1tchmycTHV0TJ1szmEE6hJHK2Ms3JlI5UQKDRPfnuWWyC09ePSiCDz5sLcovTLUdhNpu7I3/GPo3nWlvirvfgCTezDZYrz+UgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wOS0xOVQyMToyMzowOCswMzowMOld3+wAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDktMTlUMjE6MjM6MDgrMDM6MDCYAGdQAAAAAElFTkSuQmCC"/>
-		</li>
-		<li>
-			<a href="https://github.com/jleclanche" target="_blank" rel="noreferrer noopener">github.com/jleclanche</a>
-			<img height="14" width="14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAdNJREFUOI2FU0FrE0EYfd9ELIK57U5mZxPTDYm3slQv/QG9RBDBg+SH2INQPHjOuSCehCLS3u3FH1C09dIGT02KIRIXhFzsUg/7PLjTThM0Hwwz833vve8NMyOYi4cbG2vfR6OXJB8URbEKAEqpcxH5YpPk1fHh4YmPF7cgiXuNxoffl5fdeVE/bq+sHHwbjx+JyLUASRithwCS/5G9GE2zrCUiUABQj+MDAImqVE5FZAvAuAT+LAcAjEVkS1UqpwCSkgOkabpeC0PWwpB1a/edoz3yqt0eCZb7urX7Dp+m6fqt6WSyDXcekUo53/D7zNuzxADAdDLZFqP1iOQqAfzIMpknzwdJ1LSm/G10roqiaJa1fBnZc5cDQFEUTQWAACDAnaVsJ3KNpVJKDV2h1Ww+XUb2MUqpoVLkkUv8yvN3a51O61/ktU6ndZHnb68EyCO12e0+B4BqtfqC5MdsNjuLo+hru91+7ID3G40n1piTbDY7I3nX5R0X1phdozX7/X4Qx/H7yJhP9N7BiIS7e13O1pjdG/asMce1MLzoJMlmr9ezfm3sCdTCkDaKPi+cjyQa1r4xWjPSmr6D8q+41/rary0KDQYIgmBnPh8EwQ4HgwX8HyVtu9SH4YtiAAAAAElFTkSuQmCC"/>
-		</li>
-		<li>
-			<a href="https://twitter.com/Adys" target="_blank" rel="noreferrer noopener">twitter.com/Adys</a>
-			<img height="14" width="14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4gkUACQfOdNewwAAAAJiS0dEAP+Hj8y/AAAA1ElEQVQY02XQPyjEYRgH8Ge4/Om6s0iZZDUdn7KwSCmTQWbZTWITm7Iog4wyGZkMl0EpEztJ2blIuoW8ht8/de+zPH0/w9P7DZFNRLGpq+WZIU0VjNpz7cy8Sa2w5sRITgNOJUny4d5q2JBcmdMnTHjNMXmyFKa9SN6dW7epW+KRCAtuy+Dbb7nvZNgpg2p+rIhQs+WtB5+NixCmPPbgfvbP0HCo8+9acmeswNC066ukBzNFQ7O2tX3m0HWhVRQahi071nbj0oFF9ZLKugc19FcdZ+8PvxaHYmN0aOUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDktMTlUMjE6MzY6NDErMDM6MDDfKIBBAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA5LTE5VDIxOjM2OjMxKzAzOjAwpLAx5AAAAABJRU5ErkJggg=="/>
-		</li>
-	</ul>
-</div>
-<h5>Python | Fintech | Gaming | Startups</h5>
-<h5><a href="https://instagram.com/jleclanche" target="_blank" rel="noreferrer noopener">⛸️</a></h5>
-<footer><a href="/pubkey.asc.txt" class="gpg">0x37E0AF1FDA48F373</a></footer>
-</body>
+			@media all and (orientation: portrait) {
+				.card {
+					background-position: center 10px;
+					text-align: center;
+					max-width: 80%;
+					margin: 0 auto 1em;
+					min-width: 225px;
+					padding: 150px 0 20px;
+				}
+			}
+		</style>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Person",
+				"name": "Jerome Leclanche",
+				"url": "https://leclan.ch",
+				"email": "jerome@leclan.ch",
+				"gender": "Male",
+				"memberOf": {
+					"@type": "Organization",
+					"name": "OLA",
+					"url": "https://olainvierte.com"
+				},
+				"jobTitle": "Chief Technical Officer",
+				"image": "https://leclan.ch/static/avatar-128.png",
+				"sameAs": ["https://github.com/jleclanche", "https://twitter.com/Adys"]
+			}
+		</script>
+	</head>
+	<body>
+		<div class="card">
+			<h3>Jerome Leclanche</h3>
+			<h4>
+				Founder / CEO @
+				<a href="https://goveni.com" target="_blank" rel="noreferrer noopener"
+					>Goveni</a
+				>
+			</h4>
+			<h4>
+				Co-founder / CTO @
+				<a
+					href="https://olainvierte.com"
+					target="_blank"
+					rel="noreferrer noopener"
+					>OLA</a
+				>
+			</h4>
+			<ul>
+				<li>
+					Brussels, BE
+					<img
+						height="14"
+						width="14"
+						src="data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%3F%3E%3Csvg%20id%3D%22svg2%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221.1%22%3E%3Cg%20transform%3D%22translate(0%2C448)%22%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22m16%20256%20240-192%2096%2072v-32h48v72l96%2080h-48v192h-120v-160h-96v160h-168v-192z%22%20transform%3D%22translate(0%2C-448)%22%20stroke%3D%22%23000%22%20stroke-width%3D%2212%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+					/>
+				</li>
+				<li>
+					&lt;<a
+						href="mailto:jerome@leclan.ch"
+						target="_blank"
+						rel="noreferrer noopener"
+						>&#106;&#101;&#114;&#111;&#109;&#101;<span>&#64;</span>leclan<span>&#46;</span>ch</a
+					>&gt;
+					<img
+						height="12"
+						width="14"
+						src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfiCRQAFwhOa740AAAAwUlEQVQY033QsWrCABSF4S8xQvEBOig4GEo71Mkn8BXERZBmcek7+BxdWpCs4ty1g66Ca6UONUMHXTtFQgdBaFpyx/MP59yfigu03Kr/Q3LvgVc7b8ISKvTFkS8Hn9Yl2HPQCGVmBrq/UNfATBaqyaRG4guKjaQytXPX1lyiCZoSc1tchmycTHV0TJ1szmEE6hJHK2Ms3JlI5UQKDRPfnuWWyC09ePSiCDz5sLcovTLUdhNpu7I3/GPo3nWlvirvfgCTezDZYrz+UgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wOS0xOVQyMToyMzowOCswMzowMOld3+wAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDktMTlUMjE6MjM6MDgrMDM6MDCYAGdQAAAAAElFTkSuQmCC"
+					/>
+				</li>
+				<li>
+					<a
+						href="https://github.com/jleclanche"
+						target="_blank"
+						rel="noreferrer noopener"
+						>github.com/jleclanche</a
+					>
+					<img
+						height="14"
+						width="14"
+						src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAdNJREFUOI2FU0FrE0EYfd9ELIK57U5mZxPTDYm3slQv/QG9RBDBg+SH2INQPHjOuSCehCLS3u3FH1C09dIGT02KIRIXhFzsUg/7PLjTThM0Hwwz833vve8NMyOYi4cbG2vfR6OXJB8URbEKAEqpcxH5YpPk1fHh4YmPF7cgiXuNxoffl5fdeVE/bq+sHHwbjx+JyLUASRithwCS/5G9GE2zrCUiUABQj+MDAImqVE5FZAvAuAT+LAcAjEVkS1UqpwCSkgOkabpeC0PWwpB1a/edoz3yqt0eCZb7urX7Dp+m6fqt6WSyDXcekUo53/D7zNuzxADAdDLZFqP1iOQqAfzIMpknzwdJ1LSm/G10roqiaJa1fBnZc5cDQFEUTQWAACDAnaVsJ3KNpVJKDV2h1Ww+XUb2MUqpoVLkkUv8yvN3a51O61/ktU6ndZHnb68EyCO12e0+B4BqtfqC5MdsNjuLo+hru91+7ID3G40n1piTbDY7I3nX5R0X1phdozX7/X4Qx/H7yJhP9N7BiIS7e13O1pjdG/asMce1MLzoJMlmr9ezfm3sCdTCkDaKPi+cjyQa1r4xWjPSmr6D8q+41/rary0KDQYIgmBnPh8EwQ4HgwX8HyVtu9SH4YtiAAAAAElFTkSuQmCC"
+					/>
+				</li>
+				<li>
+					<a
+						href="https://twitter.com/Adys"
+						target="_blank"
+						rel="noreferrer noopener"
+						>twitter.com/Adys</a
+					>
+					<img
+						height="14"
+						width="14"
+						src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4gkUACQfOdNewwAAAAJiS0dEAP+Hj8y/AAAA1ElEQVQY02XQPyjEYRgH8Ge4/Om6s0iZZDUdn7KwSCmTQWbZTWITm7Iog4wyGZkMl0EpEztJ2blIuoW8ht8/de+zPH0/w9P7DZFNRLGpq+WZIU0VjNpz7cy8Sa2w5sRITgNOJUny4d5q2JBcmdMnTHjNMXmyFKa9SN6dW7epW+KRCAtuy+Dbb7nvZNgpg2p+rIhQs+WtB5+NixCmPPbgfvbP0HCo8+9acmeswNC066ukBzNFQ7O2tX3m0HWhVRQahi071nbj0oFF9ZLKugc19FcdZ+8PvxaHYmN0aOUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDktMTlUMjE6MzY6NDErMDM6MDDfKIBBAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA5LTE5VDIxOjM2OjMxKzAzOjAwpLAx5AAAAABJRU5ErkJggg=="
+					/>
+				</li>
+			</ul>
+		</div>
+		<h5>Python | Fintech | Gaming | Startups</h5>
+		<h5>
+			<a
+				href="https://instagram.com/jleclanche"
+				target="_blank"
+				rel="noreferrer noopener"
+				>⛸️</a
+			>
+			·
+			<a href="https://help.gov.ua/en" target="_blank" rel="noreferrer noopener"
+				>🇺🇦</a
+			>
+		</h5>
+		<footer>
+			<a href="/pubkey.asc.txt" class="gpg">0x37E0AF1FDA48F373</a>
+		</footer>
+	</body>
 </html>
