@@ -1,0 +1,23 @@
+{
+	"subject": "acct:jerome@fedi.leclan.ch",
+	"aliases": [
+		"https://fedi.leclan.ch/@jerome",
+		"https://fedi.leclan.ch/users/jerome"
+	],
+	"links": [
+		{
+			"rel": "http://webfinger.net/rel/profile-page",
+			"type": "text/html",
+			"href": "https://fedi.leclan.ch/@jerome"
+		},
+		{
+			"rel": "self",
+			"type": "application/activity+json",
+			"href": "https://fedi.leclan.ch/users/jerome"
+		},
+		{
+			"rel": "http://ostatus.org/schema/1.0/subscribe",
+			"template": "https://fedi.leclan.ch/authorize_interaction?uri={uri}"
+		}
+	]
+}

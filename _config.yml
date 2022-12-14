@@ -1,2 +1,2 @@
-exclude:
-    - CNAME
+exclude: ["CNAME"]
+include: [".well-known"]
