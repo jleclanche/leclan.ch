@@ -1,0 +1,3 @@
+/.well-known/webfinger https://fedi.leclan.ch/.well-known/webfinger 301
+/.well-known/host-meta https://fedi.leclan.ch/.well-known/host-meta 301
+/.well-known/node-info https://fedi.leclan.ch/.well-known/node-info 301
