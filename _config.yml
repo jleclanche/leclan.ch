@@ -1,2 +1,0 @@
-exclude: ["CNAME"]
-include: [".well-known"]
