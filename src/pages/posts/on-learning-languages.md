@@ -1,3 +1,7 @@
+---
+layout: ../../layouts/Page.astro
+---
+
 # Thoughts on learning a language
 
 Six weeks ago, I started learning my fifth language: Russian. As of this writing, I’m at an A2-B1 level, and seeing rapid progress every day. In talking to other language learners, I noticed some recurring fears, issues and misconceptions which I’m hoping to help alleviate in this post. I also wanted to share my method, and some general thoughts on language learning.

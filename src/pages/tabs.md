@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /tabs/
+layout: ../layouts/Page.astro
 ---
+
 # Tabs
 
 This is now the third time in very little time that I have to deal with a pull

@@ -1,6 +1,5 @@
 ---
-layout: page
-permalink: /posts/re-things-i-dont-know/
+layout: ../../layouts/Page.astro
 ---
 
 # Re: "Things I Don't Know as of 2018"
@@ -89,7 +88,7 @@ awesomeproject
 └── topmodule
     ├── __init__.py
     ├── not_a_module
-    │   └── no_init.py
+    │   └── no_init.py
     └── submodule
         └── __init__.py
 

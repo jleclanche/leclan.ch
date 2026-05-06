@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /guido/
+layout: ../layouts/Page.astro
 ---
+
 # Thank you Guido
 
 It's not often we get to know the people who can so profoundly alter the course of our lives.

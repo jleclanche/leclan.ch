@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /password-managers/
+layout: ../layouts/Page.astro
 ---
+
 # Password Managers
 
 If you're just starting, here's some guidance on setting up a password manager.
@@ -21,4 +21,3 @@ Mobile support: [Keepass2Android](https://play.google.com/store/apps/details?id=
 IMPORTANT: **BE STUPIDLY PARANOID AND RIGOROUSLY CAREFUL ABOUT YOUR MASTER PASSWORD**. That thing, together with your keepass database, unlocks all your accounts ever. Use a really long passphrase that you will never have to write down (if you do decide to write it down because you don't trust yourself, store it in a safety deposit box, don't put it in a bloody drawer). Make sure the device you unlock the database on is malware-free.
 
 PS: Wondering what's up with Keepass vs. KeepassX vs. KeepassXC? Keepass is the original app, written in .NET but with poor multi-platform support. KeepassX is a rewrite in Qt and is a fantastic password manager, but has gone unmaintained recently. The open source community picked up the slack in the KeepassXC fork (after continuing countless attempts to upstream the patches) and has implemented lots of powerful features. I've switched to it and at this point I strongly believe it's the better client.
-

@@ -1,11 +1,10 @@
 ---
-layout: page
-permalink: /posts/2016/heroic-tavern-brawl/
-announcementurl: "http://us.battle.net/hearthstone/en/blog/20324471/introducing-heroic-tavern-brawl-10-17-2016"
+layout: ../../../layouts/Page.astro
 ---
+
 # Heroic Tavern Brawl
 
-I'm very torn on the [Heroic Tavern Brawl]({{ page.announcementurl }}).
+I'm very torn on the [Heroic Tavern Brawl](http://us.battle.net/hearthstone/en/blog/20324471/introducing-heroic-tavern-brawl-10-17-2016).
 
 When it was announced, I didn't quite read everything and I assumed it was a new game mode.
 A new Tavern Brawl mode where you play more competitively.
