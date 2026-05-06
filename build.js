@@ -108,6 +108,11 @@ if (fs.existsSync("static")) {
 	copyRecursive("static", path.join(DIST, "static"));
 }
 
+// Copy public directory
+if (fs.existsSync("public")) {
+	copyRecursive("public", path.join(DIST, "public"));
+}
+
 // Copy .well-known if it exists
 if (fs.existsSync(".well-known")) {
 	copyRecursive(".well-known", path.join(DIST, ".well-known"));
