@@ -12,11 +12,13 @@ I pursue my passion, and my passion is everything.
 
 I'm the founder and CEO of [Ingram Technologies](https://ingram.tech), an AI research and development lab.
 
-Alongside that, I'm building out a few projects aimed at strengthening the European tech ecosystem:
+In parallel, I'm building out a cluster of organisations around the European startup ecosystem, anchored by [Seven Seed](https://sevenseed.eu) — a think tank promoting and shaping the European startup landscape. Seven Seed gave rise to:
 
-- [Seven Seed](https://sevenseed.eu) — a startup incubator working to turn Belgium into a startup hub.
 - [Seven Camp](https://seven.camp) — an accelerator for European tech sovereignty.
-- [Seven Capital](https://sevencapital.vc) — a Belgium-based VC fund focused on dual-use & defence startups, where I'm a founding partner.
+- [Seven Capital](https://sevencapital.vc) — a European VC fund for dual-use & defence startups, where I'm a founding partner.
+- [Seven Events](https://sevenevents.be) — an events agency, behind the [AI in Defence Summit](https://aidefencesummit.eu).
+
+The [AI in Defence Summit](https://aidefencesummit.eu), which I co-founded, brought European defence, policy and tech leaders together in Brussels in February 2026 — keynoted by EU Commissioner for Defence and Space Andrius Kubilius and Belgian Minister of Defence Theo Francken.
 
 ## Before
 
