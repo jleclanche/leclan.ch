@@ -14,7 +14,7 @@ I'm the founder and CEO of [Ingram Technologies](https://ingram.tech), an AI res
 
 Alongside that, I'm building out a few projects aimed at strengthening the European tech ecosystem:
 
-- Seven Seed — a startup incubator working to turn Belgium into a startup hub.
+- [Seven Seed](https://sevenseed.eu) — a startup incubator working to turn Belgium into a startup hub.
 - [Seven Camp](https://seven.camp) — an accelerator for European tech sovereignty.
 - [Seven Capital](https://sevencapital.vc) — a Belgium-based VC fund focused on dual-use & defence startups, where I'm a founding partner.
 
